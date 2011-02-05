@@ -1,3 +1,13 @@
+.*
+!.gitignore
+
 *.pyc
 *.swo
 .DS_Store
+
+gae/flask
+gae/werkzeug
+gae/jinja2
+gae/gaePath
+gae/gaeUtils
+
