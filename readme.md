@@ -1,9 +1,3 @@
-# Motivation
-
-We are currently migrating our projects from [django](http://www.djangoproject.com) to [flask](http://flask.pocoo.org).
-Since we also intend to use flask for entirely new projects, it made sense to save on initial setup time.
-So we created a project skeleton which includes some of the things (libs and configuration) that we pick for most projects.
-
 # Components
 
 ## General
@@ -54,6 +48,11 @@ clone repository
 fetch all the submodules via
 
     git submodule update --init
+
+setup symbolic links for directories in submodule under gae
+
+    ln -s -d /submodule/flask/flask gae/flask
+    etc.
 
 set your own appengine application id in app.yaml
 
