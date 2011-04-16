@@ -51,7 +51,7 @@ fetch all the submodules via
 
 setup symbolic links for directories in submodule under gae
 
-    ln -s -d /submodule/flask/flask gae/flask
+    ln -s -d /submodules/flask/flask gae/flask
     etc.
 
 set your own appengine application id in app.yaml
