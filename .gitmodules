@@ -13,3 +13,6 @@
 [submodule "submodules/gaeUtils"]
 	path = submodules/gaeUtils
 	url = https://github.com/blossom/gae-utils.git
+[submodule "submodules/protorpc"]
+	path = submodules/protorpc
+	url = https://github.com/jaybaker/ProtoRPC
