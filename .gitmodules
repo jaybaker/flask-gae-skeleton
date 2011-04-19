@@ -15,4 +15,4 @@
 	url = https://github.com/blossom/gae-utils.git
 [submodule "submodules/protorpc"]
 	path = submodules/protorpc
-	url = https://github.com/jaybaker/ProtoRPC
+	url = https://github.com/jaybaker/protorpc
